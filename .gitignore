@@ -1,0 +1,42 @@
+# Secrets and local environment configuration
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+env/
+ENV/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Local databases and logs
+*.db
+*.sqlite
+*.sqlite3
+*.log
+
+# Node and Vite
+node_modules/
+dist/
+coverage/
+*.tsbuildinfo
+
+# Playwright/browser test artifacts
+playwright-report/
+test-results/
+blob-report/
+playwright/.auth/
+
+# Editor and operating-system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
